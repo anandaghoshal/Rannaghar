@@ -1,0 +1,143 @@
+<!DOCTYPE <html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>About Us</title>
+        <style>
+                  * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background-image: url('https://t4.ftcdn.net/jpg/01/89/19/11/240_F_189191111_kfiSYMQWR0OsHPOvf6rP43EBharSs5ST.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative; 
+        }
+        .background-overlay {
+            background-color: rgba(255, 255, 255, 0.41); 
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #fdf0d5;
+            display: flex;
+            justify-content: center; 
+            width: 100%;
+            position: fixed; 
+            top: 0; 
+            z-index: 999;
+        }
+        .topnav a {
+            color: #ca6702;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            margin: 0 10px; 
+        }
+        .topnav a:hover {
+            background-color: #ee9b00;
+            color: whitesmoke;
+        }
+        .container {
+    max-width: 900px;
+    margin-top: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #510d0d;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 30px; 
+}
+
+.container p {
+    font-size: 20px; 
+}
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #510d0d;
+            line-height: 1.6;
+        }
+        .reviews {
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
+        
+       
+        .review {
+            margin-bottom: 20px; 
+            border: 2px solid #510d0d; 
+            padding: 20px; 
+            border-radius: 8px; 
+        }
+
+       
+        .review h3 {
+            margin-top: 0; 
+            color: #333;
+        }
+
+       
+        .review p {
+            margin: 10px 0; 
+        }
+
+        
+        .review .author {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="topnav">
+        <a href="RannagharSite.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="review.html">Reviews</a>
+        </div>
+    
+        <div class="reviews">
+            <div class="review">
+                <h3>Amazing Chicken!!</h3>
+                <p>I've ordered from here before, but the chicken curry is beyond amazing!</p>
+                <p class="author">- Anne Chatterjee</p>
+            </div>
+            <div class="review">
+                <h3>Vast Menu</h3>
+                <p>I love that the menu changes every week. It keeps you on your toeson what you can order next. It honestly makes me constantly check on the menu items because they change every week.</p>
+                <p class="author">- Nisha Kerpal</p>
+            </div>
+            <div class="review">
+                <h3>Saved My Meals</h3>
+                <p>I'm a college student and haven't had time to cook! So i ordered last month and the meals really did last me the entire week. The prices are pretty good too!</p>
+                <p class="author">- Satwik Ghoshal</p>
+            </div>
+        </div>
+    </body>
+</html>
